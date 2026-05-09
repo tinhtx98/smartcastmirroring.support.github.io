@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Smart Cast Mirroring</title>
+    <style>
+        :root {
+            --primary-color: #0ea5e9;
+            --primary-dark: #0284c7;
+            --bg-color: #f8fafc;
+            --text-main: #0f172a;
+            --text-muted: #475569;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: #e0f2fe;
+            color: var(--primary-dark);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+
+        main {
+            padding: 40px 0;
+        }
+
+        section {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: var(--text-main);
+            border-bottom: 2px solid var(--bg-color);
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            margin: 20px 0 10px 0;
+            color: var(--text-main);
+        }
+
+        p, ul, ol {
+            color: var(--text-muted);
+            margin-bottom: 15px;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .alert-box {
+            background-color: #fffbeb;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+            color: #b45309;
+        }
+
+        .alert-box strong {
+            color: #92400e;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: var(--primary-dark);
+            text-decoration: underline;
+        }
+
+        .contact-card {
+            background-color: #f1f5f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .contact-item strong {
+            width: 100px;
+            color: var(--text-main);
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            section {
+                padding: 20px;
+            }
+            .contact-item {
+                flex-direction: column;
+            }
+            .contact-item strong {
+                width: auto;
+                margin-bottom: 2px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Smart Cast Mirroring</h1>
+            <p>Official Support & Documentation</p>
+            <div class="badge">By HD Corporation</div>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section id="overview">
+            <h2>App Overview</h2>
+            <p><strong>Smart Cast Mirroring</strong> is a reliable application designed to stream your smartphone screen to your TV. Whether you are sharing photos, playing games, or presenting a slideshow, our app provides a stable connection for your needs.</p>
+            <ul>
+                <li><strong>Performance:</strong> Optimized for high-quality visuals with a standard processing latency of approximately <strong>1 second</strong>.</li>
+                <li><strong>Compatibility:</strong> Fully supports Google Cast, Chromecast, and most modern Smart TVs.</li>
+            </ul>
+        </section>
+
+        <section id="guide">
+            <h2>How to Connect via Google Cast</h2>
+            <p>To enjoy your favorite content on the big screen, follow these simple steps:</p>
+            
+            <div class="alert-box">
+                <strong>Crucial Step:</strong> Ensure that both your smartphone and your Smart TV (or Chromecast device) are connected to the <strong>same Wi-Fi network</strong>. The devices will not be able to discover each other if they are on different networks or using mobile data.
+            </div>
+
+            <ol>
+                <li><strong>Launch the App:</strong> Open the Smart Cast Mirroring app on your mobile device.</li>
+                <li><strong>Scan for Devices:</strong> Tap the "Cast" or "Search" icon located on the main screen. The app will scan for available Google Cast-enabled devices.</li>
+                <li><strong>Select Your TV:</strong> Once your TV appears in the list, tap on its name to initiate the connection.</li>
+                <li><strong>Start Mirroring:</strong> Accept any prompts on your TV screen. Your phone screen will appear on the TV shortly.</li>
+            </ol>
+        </section>
+
+        <section id="troubleshooting">
+            <h2>Troubleshooting</h2>
+            <h3>Cannot find your TV in the list?</h3>
+            <ul>
+                <li>Double-check that Wi-Fi is toggled ON on both devices and they share the exact same network name (SSID).</li>
+                <li>Restart your Wi-Fi router if the devices still cannot see each other.</li>
+                <li>Ensure your TV has Google Cast/Chromecast built-in and it is enabled in the TV's system settings.</li>
+            </ul>
+            
+            <h3>Experiencing lag or stuttering?</h3>
+            <ul>
+                <li>A latency of about 1 second is normal for wireless mirroring.</li>
+                <li>For the most stable connection and to minimize latency, we highly recommend connecting both devices to a <strong>5GHz Wi-Fi band</strong>.</li>
+            </ul>
+        </section>
+
+        <section id="privacy">
+            <h2>Privacy Policy</h2>
+            <p>Your privacy is our priority. Smart Cast Mirroring does not store, record, or distribute your screen content to any third-party servers.</p>
+            <p>For detailed information regarding our data practices, please read our official privacy policy:</p>
+            <p>&#128279; <a href="https://tinhtx98.github.io/smartcastmirroring.github.io/" target="_blank">Smart Cast Mirroring - Privacy Policy</a></p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Support</h2>
+            <p>If you need further assistance, have technical inquiries, or business proposals, please reach out to our support team.</p>
+            
+            <div class="contact-card">
+                <div class="contact-item">
+                    <strong>Company:</strong> <span>HD Corporation</span>
+                </div>
+                <div class="contact-item">
+                    <strong>Representative:</strong> <span>Nguyễn Văn Định</span>
+                </div>
+                <div class="contact-item">
+                    <strong>Email:</strong> <span><a href="mailto:vandinh1308@gmail.com">vandinh1308@gmail.com</a></span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 HD Corporation. All rights reserved.</p>
+            <p>Smart Cast Mirroring Support Desk</p>
+        </div>
+    </footer>
+
+</body>
+</html>
